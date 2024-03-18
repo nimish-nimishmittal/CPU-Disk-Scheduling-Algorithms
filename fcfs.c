@@ -9,6 +9,9 @@ typedef struct {
     int turnaround_time;
 } Process;
 
+// calculate turnaround and waiting time
+// display processes
+
 // Function to calculate waiting time and turnaround time for each process
 void calculateTimes(Process processes[], int n) {
     // Waiting time for the first process is 0
