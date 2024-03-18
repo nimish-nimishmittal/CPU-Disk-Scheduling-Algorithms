@@ -11,6 +11,10 @@ typedef struct {
     int completed; // Flag to check if process completed
 } Process;
 
+// find shortest job
+// find turnaround and waiting time
+// gantt chart display
+
 // Function to find the process with the shortest remaining time
 int findShortestJob(Process processes[], int n, int current_time) {
     int shortest_job_index = -1;
